@@ -52,10 +52,15 @@ header {
 }
 
 .skills-container {
+    font-size: 100px;
     display: flex;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.skill {
-
+.fa-brands {
+    margin: 50px;
 }
