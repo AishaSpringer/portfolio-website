@@ -47,20 +47,25 @@ header {
 #card-image {
     border-radius: 10px;
     max-width: 30%;
-    height: auto;
-    
+    height: auto; 
 }
 
 .skills-container {
     font-size: 100px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
 }
 
-.fa-brands {
+.skill-title {
+    flex-basis: 25%;
     margin: 50px;
+    align-items: center;
+}
+
+.skills-container p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
