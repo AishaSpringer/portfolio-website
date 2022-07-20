@@ -51,6 +51,11 @@ header {
     
 }
 
-.container {
-    
+.skills-container {
+    display: flex;
+
+}
+
+.skill {
+
 }
