@@ -22,6 +22,10 @@ ul {
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .aboutme {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
