@@ -90,3 +90,7 @@ html {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+#back-to-top {
+    text-align: center;
+}
