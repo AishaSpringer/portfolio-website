@@ -9,7 +9,17 @@ h1, h2 {
 }
 
 header {
+    /* background-color: #844794; */
+}
 
+li {
+   display: inline;
+   
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
 }
 
 .aboutme {
