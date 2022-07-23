@@ -1,5 +1,8 @@
 body {
     font-family: 'Albert Sans', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 h1, h2 {
@@ -12,14 +15,17 @@ header {
     /* background-color: #844794; */
 }
 
-li {
-   display: inline;
-   
-}
-
-ul {
+nav ul {
+    width: 100%;
     list-style-type: none;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+nav li {
+   display: inline;
 }
 
 html {
@@ -62,7 +68,6 @@ html {
     transition: 0.3s;
     border-radius: 5px;
     padding: 20px;
-    
 }
 
 #card-image {
