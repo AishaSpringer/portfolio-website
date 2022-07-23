@@ -153,11 +153,10 @@ nav .btn {
 .contact {
     border: 2px solid #9E15BF;
     border-radius: 40px 0 40px 0;
-    padding: 50px;
-    margin: 50px auto 0;
+    padding: 30px;
+    margin: auto;
     height: auto;
-    width: 75%;  
-    background-color: ;
+    width: 70%;  
     color:#333; 
 }
 
@@ -169,11 +168,11 @@ input#fname {
     background-image: url(../images/icon_name.png);
     background-repeat: no-repeat;
     background-position: 6px;
-    border: 1px solid #DADADA;
+    border: 1px solid lightgrey;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 35px;
-    width: 310px;
+    width: 95%;
     height: 30px;
     font-size: 14px;
     box-shadow: 0 0 10px;
@@ -183,11 +182,11 @@ input#email {
     background-image: url(../images/icon_name.png);
     background-repeat: no-repeat;
     background-position: 6px;
-    border: 1px solid #DADADA;
+    border: 1px solid lightgrey;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 35px;
-    width: 310px;
+    width: 95%;
     height: 30px;
     font-size: 14px;
     box-shadow: 0 0 10px;
@@ -195,12 +194,13 @@ input#email {
 
 #message {
     background-position: 6px;
-    border: 1px solid #DADADA;
+    border: 1px solid lightgrey;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 35px;
     font-size: 14px;
     box-shadow: 0 0 10px;
+    width: 95%;
 }
 
 input#submit {
@@ -209,7 +209,7 @@ input#submit {
     border: none;
     padding: 10px 25px;
     color: #FFF;
-    text-shadow: 1px 1px 1px #949494;
+    text-transform: uppercase;
 }
 
 input#submit:hover {
