@@ -133,7 +133,7 @@ nav .btn {
     transition: 0.3s;
     border-radius: 5px;
     padding: 20px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 #card-image {
@@ -176,7 +176,8 @@ label {
 }
 
 input#fname {
-    background-image: url(../images/icon_name.png);
+    background-image: url(../img/user-solid.svg);
+    background-size: 1.25em;
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid lightgrey;
@@ -190,7 +191,8 @@ input#fname {
 }
 
 input#email {
-    background-image: url(../images/icon_name.png);
+    background-image: url(../img/envelope-solid.svg);
+    background-size: 1.25em;
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid lightgrey;
@@ -229,6 +231,7 @@ input#submit:hover {
 
 #back-to-top {
     text-align: center;
+
 }
 
 a:link#back-to-top {
