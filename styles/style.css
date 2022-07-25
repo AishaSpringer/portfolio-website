@@ -171,17 +171,13 @@ nav .btn {
 
 .skills-container {
     font-size: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 40px;
 }
 
 .skill-title {
-    flex-basis: 25%;
     margin: 50px;
-    align-items: center;
 }
 
 .skills-container p {
@@ -264,4 +260,9 @@ input#submit:hover {
 
 a:link#back-to-top {
     color: whitesmoke;
+}
+
+@media only screen and (min-width: 1050px) and (orientation: landscape) {
+
+    
 }
