@@ -163,7 +163,7 @@ nav .btn {
     text-align: center;
 }
 
-#card-image {
+#lily-image, #fora-image {
     border-radius: 10px;
     max-width: 30%;
     height: auto; 
