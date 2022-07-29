@@ -6,9 +6,11 @@
   }
 
 body {
+    background-color: #141824;
     font-family: 'Albert Sans', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
+    color: whitesmoke; 
 }
 
 .body-content {
@@ -48,6 +50,7 @@ h1, h2 {
 
 .header {
     background-color: whitesmoke;
+    color: #141824;
     padding: 5px;
     margin-bottom: 50px;
 }
@@ -69,11 +72,11 @@ nav li {
 
 nav a:link {
     text-decoration: none;
-    color: grey;
+    color: #333;
 }
 
 a:visited {
-    color: #9E15BF;
+    color: teal;
 }
 
 html {
@@ -141,12 +144,24 @@ nav .btn {
     margin-left: 60px;
 }
 
-#github {
+#contact-icons {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
 }
 
-#github:hover {
+.fa-github {
+    padding-right: 25px;
+}
+
+#contact-icons a:link {
+    color: teal;
+}
+
+#contact-icons a:visited {
+    color: teal;
+}
+
+#contact-icons:hover {
     /* Make fa-beat animation */
 }
 
@@ -163,13 +178,16 @@ nav .btn {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px 0 rgba(239, 235, 235, 0.482);
     transition: 0.3s;
     border-radius: 5px;
     padding: 20px;
     background-color: whitesmoke;
+    color: #141824;
     text-align: center;
 }
+
+/* Change cards to teal with white text on hover */
 
 #lily-image, #fora-image {
     border-radius: 10px;
@@ -178,7 +196,7 @@ nav .btn {
 }
 
 .skills-container {
-    font-size: 90px;
+    font-size: 80px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 40px;
@@ -194,13 +212,14 @@ nav .btn {
 }
 
 .contact {
-    border: 2px solid whitesmoke;
+    border: 2px solid teal;
     border-radius: 40px 0 40px 0;
     padding: 30px;
     margin: auto;
     height: auto;
     width: 70%;  
-    color:#333; 
+    /* color:#333;  */
+    color: rgb(226, 226, 226);
 }
 
 label {
@@ -212,7 +231,7 @@ input#fname {
     background-size: 1.25em;
     background-repeat: no-repeat;
     background-position: 6px;
-    border: 1px solid lightgrey;
+    border: 1px solid #333;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 35px;
@@ -227,7 +246,7 @@ input#email {
     background-size: 1.25em;
     background-repeat: no-repeat;
     background-position: 6px;
-    border: 1px solid lightgrey;
+    border: 1px solid #333;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 35px;
@@ -239,7 +258,7 @@ input#email {
 
 #message {
     background-position: 6px;
-    border: 1px solid lightgrey;
+    border: 1px solid #333;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 35px;
@@ -249,7 +268,8 @@ input#email {
 }
 
 input#submit {
-    background-color: #9E15BF;
+    /* background-color: #9E15BF; */
+    background-color: teal;
     border-radius: 5px;
     border: none;
     padding: 10px 25px;
@@ -258,7 +278,8 @@ input#submit {
 }
 
 input#submit:hover {
-    background-color: #61396C;
+    /* background-color: #61396C; */
+    background-color: rgb(2, 100, 100);
 }
 
 #back-to-top {
