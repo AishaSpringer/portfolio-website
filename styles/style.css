@@ -174,7 +174,7 @@ nav .btn {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    margin: 50px;
+    margin: 0px 50px;
 }
 
 .card {
@@ -195,15 +195,21 @@ nav .btn {
     height: auto; 
 }
 
-.skills-container {
-    font-size: 80px;
+#sk-container {
+    margin: 110px 50px;
+}
+
+.skill-items {
+    font-size: 25px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
 
-.skill-title {
-    margin: 50px;
+.skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills-container p {
@@ -218,7 +224,6 @@ nav .btn {
     margin: auto;
     height: auto;
     width: 70%;  
-    /* color:#333;  */
     color: rgb(226, 226, 226);
 }
 
