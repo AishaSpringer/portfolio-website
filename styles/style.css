@@ -141,6 +141,15 @@ nav .btn {
     margin-left: 60px;
 }
 
+#github {
+    text-align: center;
+    font-size: 45px;
+}
+
+#github:hover {
+    /* Make fa-beat animation */
+}
+
 .projects {
     padding: 20px;
 }
