@@ -268,7 +268,6 @@ input#email {
 }
 
 input#submit {
-    /* background-color: #9E15BF; */
     background-color: teal;
     border-radius: 5px;
     border: none;
@@ -278,16 +277,21 @@ input#submit {
 }
 
 input#submit:hover {
-    /* background-color: #61396C; */
     background-color: rgb(2, 100, 100);
 }
 
-#back-to-top {
-    text-align: center;
-
+#ScrollToTop {
+    font-size: 30px;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
 }
 
-a:link#back-to-top {
+a:link#ScrollToTop {
+    color: whitesmoke;
+}
+
+a:visited#ScrollToTop {
     color: whitesmoke;
 }
 
