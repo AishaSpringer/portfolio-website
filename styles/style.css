@@ -200,16 +200,20 @@ nav .btn {
 }
 
 .skill-items {
-    font-size: 25px;
+    font-size: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 35px;
 }
 
 .skill-card {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.skill-card i {
+    margin-right: 15px;
 }
 
 .skills-container p {
