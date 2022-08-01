@@ -56,6 +56,12 @@ h1, h2 {
     margin-bottom: 50px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 nav ul {
     width: 100%;
     list-style-type: none;
@@ -308,4 +314,3 @@ a:visited#ScrollToTop {
     .skill-items { grid-template-columns: repeat(1, 1fr); }
     #cards-container { grid-template-columns: repeat(1, 1fr); }
 }
-
