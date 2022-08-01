@@ -37,7 +37,7 @@ h2 {
 }
 
 header h1 {
-    margin-bottom: 0.5px;
+    margin-bottom: 0px;
 }
 
 header h2 {
@@ -54,6 +54,7 @@ h1, h2 {
     color: #141824;
     padding: 5px;
     margin-bottom: 50px;
+    transition: 0.2s;
 }
 
 .sticky {
@@ -62,13 +63,19 @@ h1, h2 {
     width: 100%;
 }
 
+#navbar {
+    background-color: whitesmoke;
+
+}
+
 nav ul {
     width: 100%;
     list-style-type: none;
     text-align: center;
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: space-evenly;
+    padding-inline-start: 0em;
+
 }
 
 nav li {
