@@ -52,7 +52,7 @@ h1, h2 {
 .header {
     background-color: whitesmoke;
     color: #141824;
-    padding: 5px;
+    padding: 3px;
     margin-bottom: 50px;
     transition: 0.2s;
 }
@@ -61,11 +61,11 @@ h1, h2 {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: whitesmoke;
 }
 
-#navbar {
-    background-color: whitesmoke;
-
+.sticky + .body-content {
+    padding-top: 102px;
 }
 
 nav ul {

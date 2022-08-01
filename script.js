@@ -15,14 +15,3 @@ function myFunction() {
     nav.classList.remove("sticky");
   }
 }
-/* 
-// When the user scrolls down 50px from the top of the document, resize the header's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    document.getElementById("nameHeader").style.fontSize = "16px";
-  } else {
-    document.getElementById("nameHeader").style.fontSize = "60px";
-  }
-} */
