@@ -75,7 +75,6 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     padding-inline-start: 0em;
-
 }
 
 nav li {
@@ -177,6 +176,7 @@ nav .btn {
 
 #contact-icons:hover {
     /* Make fa-beat animation */
+    color: rgb(0, 128, 128, 0.6);
 }
 
 .projects {
